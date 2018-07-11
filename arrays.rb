@@ -22,3 +22,6 @@ cart_item_prices.each do |price|
   end
 end
 puts big_ticket_prices
+
+total = 0 
+cart_item_prices = 
