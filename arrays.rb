@@ -28,4 +28,8 @@ cart_item_prices = [12.50, 19.99, 3.49, 7.99]
 cart_item_prices.each do |price|
   total += price
 end
+
+sandwiches.each do |indsandwich|
+  puts "#{indsandwich}"
+end
 puts total
