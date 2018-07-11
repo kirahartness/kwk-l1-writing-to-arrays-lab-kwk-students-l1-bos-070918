@@ -25,7 +25,7 @@ def add_colors
   "default",
   "light_cyan"
   ]
-  rainbow_colors.push(green, blue)
+  rainbow_colors.push("green", "blue")
 end
 
   # Write a solution that adds "green", then "blue" to the rainbow_colors array, then returns the array
