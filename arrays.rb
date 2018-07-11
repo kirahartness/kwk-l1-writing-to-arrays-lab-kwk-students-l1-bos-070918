@@ -29,7 +29,7 @@ cart_item_prices.each do |price|
   total += price
 end
 
-sandwiches = [["ham", "swiss"],["turkey", "cheddar"],["roast beef", "gruyere"]]
+sandwiches = [["ham", "swiss"],["turkey", "cheddar"],["roast beef", "gruyere"]].reverse
 sandwiches.each do |indsandwich|
   puts "#{indsandwich}"
 end
